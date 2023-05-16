@@ -20,14 +20,13 @@
 #define memcpy_P memcpy
 #define PROGMEM
 #else
-#include <Arduino.h>
 #endif
 //
 // unzip library
 // Written by Larry Bank
 // Copyright (c) 2021 BitBank Software, Inc.
 // bitbank@pobox.com
-// 
+//
 // An embedded-friendly unzip library
 // which needs only 41K of RAM
 //
